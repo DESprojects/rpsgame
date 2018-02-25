@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ROCK PAPER SCISSORS</title>
+  <link rel="stylesheet" type="text/css" href="style/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Rock, Paper or Scissors?</h1>
+    <h2>Choose your destiny</h2>
+    <div class="selections">
+      <div id="play-again">
+        <h1><span id="final"></span></h1>
+        <h2>Play again?</h2>
+      </div>
+      <div class="choices">
+        <div class="choice" id="rock" data-value="0">Rock</div>
+        <div class="choice" id="paper" data-value="1">Paper</div>
+        <div class="choice" id="scissors" data-value="2">Scissors</div>
+      </div>
+    </div>
+    <span id="outcome"></span>
+    <h3>Wins: <span id="win-number">0</span> | Losses: <span id="loss-number">0</span></h3>
+  </div>
+  <script src="script/game.js"></script>
+</body>
+
+</html>
